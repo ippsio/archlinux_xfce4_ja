@@ -12,8 +12,8 @@ echo sh_dir=${sh_dir}
 
 #----------------------------------------------------------------------------
 SECT "Set alias"
-echo "alias ll='ls -Ula'" >> ${HOME}/.bash_profile
-echo "alias ll='ls -Ula'" | sudo tee -a /root/.bash_profile
+echo "alias ll='ls -Ula'" >> ${HOME}/.bashrc
+echo "alias ll='ls -Ula'" | sudo tee -a /root/.bashrc
 
 #----------------------------------------------------------------------------
 SECT "Update package list(pacman -Syy)"
