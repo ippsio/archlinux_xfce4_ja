@@ -2,11 +2,10 @@
 
 Build source of Japanese flavored archlinux box ( https://app.vagrantup.com/ippsio/boxes/archlinux_xfce4_ja ).
 
-- v4.19.4-arch1 with
-  - xfce4 + lightdm (GUI Desktop)
+- 4.20.6-arch1-1-ARCH with
+  - xfce4 / lxde + lxdm (GUI Desktop)
   - fcitx + fcitx_mozc (IME)
-  - chromium (Web browser)
-  - docker + docker-compose (Container platform)
+  - firefox / chromium (Web browser)
 
 If you would like to change keyboard setting into Japanese keyboard, then execute `sudo localectl set-keymap jp106`
 
